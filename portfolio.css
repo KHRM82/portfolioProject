@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+header {
+  background-color: #7211ee;
+  color: white;
+  height: 100px;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+  width: 100vw;
+}
+
+.rightside {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+.leftside {
+  width: 50%;
+  display: inline-block;
+}
+a {
+  text-decoration: none;
+  color: white;
+  line-height: 50px;
+}
+li {
+  list-style-type: none;
+}
+.divRight {
+  width: 50%;
+  position: absolute;
+  right: auto;
+  display: inline-block;
+}
+.sec1 {
+  display: flex;
+  flex-wrap: wrap;
+}
+.intro {
+  display: inline-block;
+  width: 50%;
+  position: relative;
+  left: 20%;
+}
+.image {
+  margin-left: 50px;
+  margin-top: 20px;
+}
+
+.cardSkill {
+  height: 100px;
+  width: 150px;
+  border-radius: 30px;
+  border: 2px solid #7211ee;
+  text-align: center;
+  padding-top: 20px;
+  margin-bottom: 20px;
+  transition: all 0.2s linear 0.1s;
+}
+.skillgroup {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 50%;
+}
+.cardSkill:hover {
+  transform: scale(1.1);
+  background-color: antiquewhite;
+}
+.skillh1 {
+  font-size: 50px;
+  margin-left: 200px;
+  margin: 50px;
+  margin-bottom: 20px;
+}
+.prjGroup {
+  margin: 0 auto;
+  line-height: 40px;
+  width: 70%;
+}
+hr {
+  width: 60%;
+  margin: 10px auto;
+  color: #7211ee;
+}
+.prjGroup ul li {
+  list-style-type: disc;
+}
+.prjGroup ul {
+  padding-left: 35px;
+}
+.rcmPara {
+  border: 2px solid #7211ee;
+  height: 180px;
+  width: 360px;
+  border-radius: 2rem;
+  text-align: center;
+  padding-top: 10px;
+  margin: 10px 15px;
+  overflow: hidden;
+}
+.rcmGroup {
+  margin-left: 8%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-content: space-around;
+}
+.leaveRecGroup {
+  margin: 50px auto;
+  text-align: center;
+}
+.leaveRecHeading {
+  margin: 10px auto;
+}
+input {
+  margin: 20px auto;
+  border: 2px solid #7211ee;
+  width: 50%;
+  height: 20px;
+  border-radius: 0.5em;
+}
+section {
+  margin-bottom: 60px;
+}
+textarea {
+  margin: 0 auto;
+  border: 2px solid#7211ee;
+  border-radius: 0.5em;
+}
+button {
+  height: 30px;
+  width: 110px;
+  border: 2px solid #7211ee;
+  background-color: transparent;
+  color: #7211ee;
+  border-radius: 0.6em;
+}
+
+@media (max-width: 768px) {
+  .introPara {
+    height: auto;
+    width: 100px;
+    margin-left: auto;
+    position: relative;
+    right: 60px;
+  }
+  .rightside {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    gap: 0;
+  }
+  header {
+    background-color: #7211ee;
+    color: white;
+    height: 100px;
+    padding: auto;
+    width: 100vw;
+  }
+}
